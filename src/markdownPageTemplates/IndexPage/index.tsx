@@ -33,10 +33,9 @@ const ImageWrapper = styled.div`
   @media (max-width: 550px) {
     position: relative;
     width: 100%;
-    margin: 0;
     float: none;
     right: 0;
-    margin-bottom: 5rem;
+    margin: 0.5rem 0 5rem;
   }
 `;
 
