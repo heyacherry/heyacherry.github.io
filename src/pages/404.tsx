@@ -44,7 +44,7 @@ const NotFoundPage: React.FunctionComponent<{
   <Layout pathname={pathname}>
     <PageWrapper>
       <h1>NOT FOUND</h1>
-      <p>Something bad happened. But I still love you.</p>
+      <p>Something bad happened. But I still here...</p>
       <ButtonWrapper>
         <ButtonLink href='/'>Return to the homepage</ButtonLink>
       </ButtonWrapper>

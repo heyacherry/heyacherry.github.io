@@ -3,9 +3,19 @@ templateKey: TemplateBasic
 title: Cherry Liang
 ---
 
-_A Motivated, fast-learning and enterprising JS Developer._ <br/><br/> _It is lucky that I have been able to work on multiple projects: from web, mobile, desktop client app to DApp. These experiences enrich my partical dev skills and also make me understand what's the key attributes of being a develpor: a can-do attitude, a fast-leanring ability and have trust in your team._
+_A Motivated, fast-learning and enterprising JS Developer._
 
 👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻
+
+## SKILLS
+
+I have worked on multiple projects: from web, mobile, desktop client app to DApp.Recent technology stacks applied in development:
+
+- React and related react-x libraries (React router, Redux-Observable, Redux), GatsbyJS, React Native, Electron.
+- Javascript ES6, typescript, GraphQL, ESLint, webpack, babel, Styled- component, Jenkins, Docker, swagger etc.
+- Express, NodeJS, AWS services such as S3, lambda and cloudwatch.
+- Blockchain knowledge, Substrate, Polkadot.
+- Test: Jest, Cypress, cucumberJS.
 
 ## EXPERIENCES
 
@@ -15,26 +25,23 @@ _A Motivated, fast-learning and enterprising JS Developer._ <br/><br/> _It is lu
 
 - Collaborate with business/design team, to understand commercial requirements and sort out the user story.
 - Develop applications from scratch, build tests, refactor specific sets of code and participate code-reviews in an agile working environment.
-- Related technology stacks applied in development : <br/><small>- React and related react-x libraries (Redux, React router, Redux-Observable), GatsbyJS, React Native, Electron.</small> <br/><small>- Javascript ES6, typescript, GraphQL, ESLint, webpack, babel, Styled-component, Jenkins, Docker, swagger etc.</small> <br/><small>- Express, NodeJS, AWS services such as S3, lambda and cloudwatch.</small> <br/><small>- Test: Jest, Cypress, cucumberJS.</small>
-- Some released project: <br/>- <strong>rUN</strong><small> : A desktop client wallet that can run a blockchain network locally, connect remote blockchain network, manage crypto assets and do the staking as validators.</small> <br><small>[Home page built with GatsbyJS](https://runanode.io/) </small><br><small>[Open source repo](https://github.com/cennznet/runanode)</small> <br><small>[Why should you rUN a node and stake tokens?](https://medium.com/centrality/why-should-you-run-a-node-and-stake-tokens-9738e6cd4c40) </small> <br/><br/>- <strong>TGE APP</strong><small> : Token Sales web application. A KYC/AML buyer and distributor validation application and token sales exchange platform, based on a smart contract in Ethereum network. It is a decentralised, customised peer-to-peer exchange, that allows only approved investors to participate in token purchases.</small> <br><small>[TGE App](https://secure.tgeapp.com/) </small><br><small>[Introducing our new TGE Sales App.](https://medium.com/centrality/introducing-our-new-tge-sales-app-c2cfa215ddc1)</small> <br><small>[Centrality TGE raises over \$100 million in under six minutes](https://medium.com/centrality/centrality-tge-raises-over-100-million-in-under-six-minutes-8a8f505f6b7a)</small>
+- Document development solutions of app and code changes.
+- Some released project: <br/>\* <strong>rUN</strong><small> : A cross-platform desktop wallet app, an open-source project in Github, that can sync blockchain network, manage crypto assets and do staking as validators. As a team member, I did:</small> <br><small>- Implemented features using Electron, React(Hook), Gatsby independently and explored effective and innovative solutions.</small><br><small>- Supported team and delivered the product on time and on budget.</small><br><small>[Home page built with GatsbyJS](https://runanode.io/) </small><br><small>[Open source repo](https://github.com/cennznet/runanode)</small> <br><small>[Why should you rUN a node and stake tokens?](https://medium.com/centrality/why-should-you-run-a-node-and-stake-tokens-9738e6cd4c40) </small> <br/><br/>\* <strong>TGE APP</strong><small> : A token sales web application based on a smart contract in Ethereum network.As a team member, I did:</small><br><small> - Built all integration tests for TGE(phase 1) with cypress, which save time and boost confidence in the deployment for hot fixes.</small><br><small> - Developed UI from wireframe using React and delivered features to product environment on time.</small> <br><small>[TGE App](https://secure.tgeapp.com/) </small><br><small>[Introducing our new TGE Sales App.](https://medium.com/centrality/introducing-our-new-tge-sales-app-c2cfa215ddc1)</small> <br><small>[Centrality TGE raises over \$100 million in under six minutes](https://medium.com/centrality/centrality-tge-raises-over-100-million-in-under-six-minutes-8a8f505f6b7a)</small>
 
 ### Associate Software Engineer - Full time
 
 #### HSBC Software Development Ltd. CN, 2015-2017
 
-- Analyzed business requirements, maintained and developed existing application systems. (Worked with HTML / CSS/ JavaScript/ jQuery / Java / Cloud Server: Websphere, etc).
-- Executed unit test and black box test on new features, consolidated test results and delivered testing reports.
-- Performed Database(Oracle) administration: <br><small>- Built SQL scripts (Data query, Backup & Import, Schema setup, etc.)</small><br><small>- Managed database release changes (Production data update,feature Iteration)</small>
-- Provided night-call support(L2) across running application systems, ensured systems are in good status.
-- Collaborated with geographically dispersed teams(Hongkong, India) and worked with Agile methodologies.
-- Used JIRA/ Visual Studio/ SharePoint/ Outlook for documentation.
+- Maintained and developed existing application systems, write tests on new features (Worked with jQuery / Java/ Cloud Server, etc).
+- Performed Database(Oracle) administrative responsibilities.
+- Provided night-call support(L2) across running applications, ensured systems were in good status.
+- Collaborated with geographically dispersed teams(Hong Kong, India) and worked within the Agile methodologies.
 
 ### SAP Project Coordinator - Internship
 
 #### IBM - EVERGRANDE GROUP, CN 2014-2015
 
-- Assisted to work out project documents(Included: user requirements documents, function scripts, test scripts).
-- Prepared weekly progress reports and performed administration duties.
+- Assisted to work out project documents(Included: user requirements documents, function & test scripts) and weekly progress reports.
 - Briefed the ERP theory to non-technical users and guided key users through the operation of the system.
 
 ## OTHER EXPERIENCES
