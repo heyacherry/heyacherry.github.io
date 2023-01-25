@@ -25,8 +25,8 @@ export const About = () => {
     <div className="mb-40">
       <SectionTitle title={ABOUT} />
 
-      <div className="flex items-center justify-around">
-        <div className="w-2/3 text-base-200 flex flex-col gap-4 ">
+      <div className="flex flex-col sm:flex-row items-center justify-around mt-8">
+        <div className="w-auto sm:w-2/3 text-base-200 flex flex-col gap-4 ">
           <div>{INTRO_01}</div>
           <div>{INTRO_02}</div>
           <div>{INTRO_03}</div>
