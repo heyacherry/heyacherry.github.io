@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('../public/fonts/Ubuntu.ttf');
+}
+
+@font-face {
+  font-family: 'righteous';
+  src: url('../public/fonts/Righteous.ttf');
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

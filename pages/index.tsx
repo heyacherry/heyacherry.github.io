@@ -1,17 +1,19 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
 import React from 'react';
-import { LottiePlayer, MotionPresence } from '@/components';
+import { LottiePlayer, MotionPresence, Portfolio } from '@/components';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const [showHello, setShowHello] = React.useState<boolean>(true);
-  const router = useRouter();
   React.useEffect(() => {
-    setTimeout(() => setShowHello(false), 3500);
+    const timeoutId = setTimeout(() => setShowHello(false), 3500);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, []);
 
   return (
@@ -25,11 +27,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main
+        data-theme="cherryTheme"
+        className="flex flex-col justify-center min-h-screen font-body text-xl px-6"
+      >
         <MotionPresence visible={showHello}>
           <LottiePlayer />
         </MotionPresence>
-        {!showHello && <div>Portfolio</div>}
+        {!showHello && <Portfolio />}
       </main>
     </>
   );
