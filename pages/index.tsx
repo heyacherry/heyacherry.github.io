@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
+import '@rainbow-me/rainbowkit/styles.css';
 import { LottiePlayer, MotionPresence, Portfolio } from '@/components';
-import { SocialLinks } from '@/components/pages/Portfolio/SocialLinks';
+import { RainbowKit } from '@/components/RainbowKit';
 
 export default function Home() {
   const [showHello, setShowHello] = React.useState<boolean>(true);
@@ -28,10 +29,12 @@ export default function Home() {
         data-theme="cherryTheme"
         className="flex flex-col justify-center min-h-screen font-body text-xl px-2 sm:px-6"
       >
-        <MotionPresence visible={showHello}>
-          <LottiePlayer />
-        </MotionPresence>
-        {!showHello && <Portfolio />}
+        <RainbowKit>
+          <MotionPresence visible={showHello}>
+            <LottiePlayer />
+          </MotionPresence>
+          {!showHello && <Portfolio />}
+        </RainbowKit>
       </main>
     </>
   );

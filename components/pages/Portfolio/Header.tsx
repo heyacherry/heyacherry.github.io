@@ -1,3 +1,4 @@
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { ScrollLink } from '@/components/ScrollLink';
 import { ABOUT, EXPERIENCES } from '.';
 import { MyGithub, MyLinkedIn } from './SocialLinks';
@@ -13,7 +14,7 @@ const ScrollLinkTitle = ({ label, to }: { label: string; to: string }) => (
 export const Header = () => {
   return (
     <div className="w-full py-8 pr-20 flex justify-end text-base-200">
-      <div className="flex gap-8">
+      <div className="flex gap-8 items-center">
         <ScrollLinkTitle label={ABOUT} to={ABOUT} />
         <ScrollLinkTitle label={EXPERIENCES} to={EXPERIENCES} />
 
@@ -23,6 +24,7 @@ export const Header = () => {
         <span className="display md:hidden">
           <MyGithub />
         </span>
+        <ConnectButton showBalance={false} />
       </div>
     </div>
   );
