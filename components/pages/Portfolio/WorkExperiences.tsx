@@ -145,8 +145,8 @@ export const WorkExperiences = () => {
     <div className="mb-40">
       <SectionTitle title={OTHER_EXPERIENCES} />
 
-      <div className="mt-8 flex gap-9">
-        <div className="btn-group btn-group-vertical">
+      <div className="mt-8 flex gap-9 overflow-scroll flex-col sm:flex-row">
+        <div className="btn-group sm:btn-group-vertical">
           {whereIHaveBeen.map((gig) => (
             <NotationButton
               key={gig}

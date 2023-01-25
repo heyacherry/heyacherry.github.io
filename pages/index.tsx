@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <main
         data-theme="cherryTheme"
-        className="flex flex-col justify-center min-h-screen font-body text-xl px-6"
+        className="flex flex-col justify-center min-h-screen font-body text-xl px-2 sm:px-6"
       >
         <MotionPresence visible={showHello}>
           <LottiePlayer />

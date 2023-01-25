@@ -7,8 +7,8 @@ import { WorkExperiences } from './WorkExperiences';
 
 export const Portfolio = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="max-w-[1000px] leading-relaxed">
+    <div className="flex flex-col items-center px-4 sm:px-0">
+      <div className="w-full lg:max-w-[1000px] leading-relaxed">
         <Intro />
         <About />
         <WorkExperiences />
