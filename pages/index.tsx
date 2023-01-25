@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import { Inter } from '@next/font/google';
-import styles from '@/styles/Home.module.css';
 import React from 'react';
 import { LottiePlayer, MotionPresence, Portfolio } from '@/components';
-
-const inter = Inter({ subsets: ['latin'] });
+import { SocialLinks } from '@/components/pages/Portfolio/SocialLinks';
 
 export default function Home() {
   const [showHello, setShowHello] = React.useState<boolean>(true);

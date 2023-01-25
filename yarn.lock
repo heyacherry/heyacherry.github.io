@@ -264,6 +264,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-scroll@^1.8.6":
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/@types/react-scroll/-/react-scroll-1.8.6.tgz#a2b1ea795279548172cd9a2c99fa4e5568297ffb"
+  integrity sha512-aMTiNgcmA7dwn1yjoHsiL78RfRnKCXzFyMbv63VrZTXloSfNePBdKtVObC3/My6irwDf0Oz0U4VjEC/vrv6/9w==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.27":
   version "18.0.27"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
@@ -1682,6 +1689,11 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
+
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
@@ -2020,7 +2032,7 @@ prettier@^2.8.3:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.3.tgz#ab697b1d3dd46fb4626fbe2f543afe0cc98d8632"
   integrity sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==
 
-prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2068,6 +2080,14 @@ react-rough-notation@^1.0.3:
   integrity sha512-hMmyWNZTpPO9QOwj0g1SGgRiPWhJLhQje9ZtpQiAa1h0147oCL5C49OLXEZZYCxfMhXOqYBxSNkbndM09o3hUQ==
   dependencies:
     rough-notation "^0.5.1"
+
+react-scroll@^1.8.9:
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.8.9.tgz#96f8a82f882b187970c2338759225c7e619d915b"
+  integrity sha512-9m7ztraiX/l6L7erzYAD3fhnveNckei6/NkWfqwN2e0FRdoE2W6Pk4oi2Nah7mWpPCPAeIgegfaqZACTimPOwg==
+  dependencies:
+    lodash.throttle "^4.1.1"
+    prop-types "^15.7.2"
 
 react@18.2.0:
   version "18.2.0"

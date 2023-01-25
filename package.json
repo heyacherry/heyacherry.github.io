@@ -24,9 +24,11 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "react-rough-notation": "^1.0.3",
+    "react-scroll": "^1.8.9",
     "typescript": "4.9.4"
   },
   "devDependencies": {
+    "@types/react-scroll": "^1.8.6",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
