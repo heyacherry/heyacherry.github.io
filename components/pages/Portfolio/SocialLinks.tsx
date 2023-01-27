@@ -2,25 +2,25 @@ import { FiLinkedin } from 'react-icons/fi';
 import { FaGithubAlt } from 'react-icons/fa';
 import { GITHUB_URL, LINKEDIN_URL } from '@/static';
 
-export const MyLinkedIn = () => (
+export const MyLinkedIn = ({ size = 26 }: { size?: number }) => (
   <a
     className="hover:text-warning"
     href={LINKEDIN_URL}
     target="_blank"
     rel="noreferrer"
   >
-    <FiLinkedin size={24} />
+    <FiLinkedin size={size} />
   </a>
 );
 
-export const MyGithub = () => (
+export const MyGithub = ({ size = 26 }: { size?: number }) => (
   <a
     className="hover:text-warning"
     href={GITHUB_URL}
     target="_blank"
     rel="noreferrer"
   >
-    <FaGithubAlt size={24} />
+    <FaGithubAlt size={size} />
   </a>
 );
 

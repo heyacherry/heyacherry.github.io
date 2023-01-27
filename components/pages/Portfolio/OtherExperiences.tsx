@@ -33,11 +33,11 @@ interface IExperience {
 const Experience: React.FC<IExperience> = ({ title, details }) => {
   return (
     <>
-      <div className="text-2xl">
+      <div className="text-lg">
         <span>{title}</span>
       </div>
       {details && (
-        <div className="mb-5 text-lg pr-4">
+        <div className="mb-5 text-base pr-4">
           {details.map((work) => (
             <div key={work} className="flex flex-cl">
               <div className="h-[28px] flex items-center mr-1">
@@ -58,7 +58,7 @@ export const OtherExperiences = () => {
       <SectionTitle title={WORK_EXPERIENCES} />
 
       <div className="mt-8 flex gap-9">
-        <div className="px-4 py-2 text-base-200">
+        <div className="sm:px-4 py-2 text-base-200">
           {myExperiences.map((experience) => (
             <Experience {...experience} key={experience.title} />
           ))}

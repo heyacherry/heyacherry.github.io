@@ -14,8 +14,8 @@ export const EXPERIENCES = 'Experiences';
 export const Portfolio = () => {
   return (
     <div className="flex flex-col items-center px-4 sm:px-0 relative">
-      <Header />
       <div className="w-full lg:max-w-[1000px] leading-relaxed">
+        <Header />
         <Intro />
         <Element name={ABOUT}>
           <About />

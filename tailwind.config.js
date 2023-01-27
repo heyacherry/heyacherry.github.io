@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: '360px',
+      },
       fontFamily: {
         ubuntu: ['ubuntu', 'sans-serif'],
         righteous: ['righteous', 'sans-serif'],
@@ -27,6 +30,7 @@ module.exports = {
           neutral: '#6b7280',
           'base-100': '#111827',
           'base-200': '#79869d',
+          'base-content': 'rgb(191 203 227)',
           info: '#38bdf8',
           success: '#4ade80',
           warning: '#facc15',
