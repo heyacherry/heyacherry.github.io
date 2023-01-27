@@ -33,7 +33,10 @@ export const RainbowKit: React.FC<IRainbowKit> = ({ children }) => (
       chains={chains}
       theme={{
         lightMode: lightTheme(),
-        darkMode: darkTheme(),
+        darkMode: darkTheme({
+          accentColor: '#4f46e5',
+          accentColorForeground: 'rgb(191 203 227)',
+        }),
       }}
     >
       {children}

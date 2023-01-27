@@ -101,9 +101,9 @@ const Experience: React.FC<IExperience> = ({
 }) => {
   return (
     <>
-      <div className="text-2xl">
-        <span>{title}</span>
-        <span className="text-primary ml-4">
+      <div className="text-2xl flex flex-col sm:flex-row gap-1">
+        <div>{title}</div>
+        <div className="text-primary">
           @
           <a
             href={gigLink}
@@ -113,7 +113,7 @@ const Experience: React.FC<IExperience> = ({
           >
             {gig}
           </a>
-        </span>
+        </div>
       </div>
       <div className="text-sm">{duration}</div>
       <div className="mt-5 text-lg pr-4">
@@ -146,7 +146,7 @@ export const WorkExperiences = () => {
       <SectionTitle title={OTHER_EXPERIENCES} />
 
       <div className="mt-8 flex gap-9 overflow-scroll flex-col sm:flex-row">
-        <div className="btn-group sm:btn-group-vertical">
+        <div className="btn-group sm:btn-group-vertical flex-wrap">
           {whereIHaveBeen.map((gig) => (
             <NotationButton
               key={gig}
@@ -160,7 +160,7 @@ export const WorkExperiences = () => {
           ))}
         </div>
 
-        <div className="px-4 py-2 text-base-200">
+        <div className="sm:px-4 py-2 text-base-200">
           <Experience {...work} />
         </div>
       </div>

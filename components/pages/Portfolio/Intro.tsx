@@ -12,7 +12,7 @@ const INTRO_2 =
 
 export const Intro = () => {
   return (
-    <div className="py-12 sm:h-screen flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center">
       <div className="text-primary">{I_AM}</div>
       <div className="font-heading text-6xl sm:text-8xl my-5">{NAME}</div>
       <div className="font-heading text-4xl sm:text-6xl text-base-200">
