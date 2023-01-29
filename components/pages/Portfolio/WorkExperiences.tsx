@@ -1,6 +1,13 @@
 import { RxDot } from 'react-icons/rx';
 import { SectionTitle, NotationButton } from '@/components';
 import React from 'react';
+import {
+  ASB_BANK_URL,
+  CEN_URL,
+  DOVETAIL_URL,
+  HSBC_URL,
+  SUBQUERY_URL,
+} from '@/static';
 
 const OTHER_EXPERIENCES = 'Work Experiences';
 
@@ -14,7 +21,7 @@ const subQueryWork = [
 const subQueryExperiences = {
   title: 'Senior Software Engineer',
   gig: 'SubQuery',
-  gigLink: '',
+  gigLink: SUBQUERY_URL,
   duration: 'Nov 2021 - Present',
   works: subQueryWork,
 };
@@ -25,8 +32,8 @@ const palomaWork = [
 ];
 const palomaExperiences = {
   title: 'Software Engineer',
-  gig: 'Paloma(Prev. Dovetail)',
-  gigLink: '',
+  gig: 'Paloma',
+  gigLink: DOVETAIL_URL,
   duration: 'May 2021 - Nov 2021',
   works: palomaWork,
 };
@@ -39,7 +46,7 @@ const asbWork = [
 const asbExperiences = {
   title: 'Senior Software Engineer',
   gig: 'ASB Bank',
-  gigLink: '',
+  gigLink: ASB_BANK_URL,
   duration: 'May 2021 - Nov 2021',
   works: asbWork,
 };
@@ -52,7 +59,7 @@ const cenWork = [
 const cenExperiences = {
   title: 'Full Stack Developer',
   gig: 'Centrality.ai',
-  gigLink: '',
+  gigLink: CEN_URL,
   duration: 'Jul 2017 - Aug 2020',
   works: cenWork,
 };
@@ -67,7 +74,7 @@ const hsbcWork = [
 const hsbcExperiences = {
   title: 'Full Stack Developer',
   gig: 'HSBC',
-  gigLink: '',
+  gigLink: HSBC_URL,
   duration: 'Aug 2015 - Apr 2017',
   works: hsbcWork,
 };
