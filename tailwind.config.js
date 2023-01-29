@@ -25,7 +25,7 @@ module.exports = {
       {
         cherryTheme: {
           primary: '#ff624b',
-          secondary: '#4f46e5',
+          secondary: '#6a61fa', //'#4f46e5'
           accent: '#f87171',
           neutral: '#6b7280',
           'base-100': '#111827',
