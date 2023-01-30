@@ -23,7 +23,9 @@
     "framer-motion": "^8.5.0",
     "next": "13.1.2",
     "react": "18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
     "react-rough-notation": "^1.0.3",
     "react-scroll": "^1.8.9",
@@ -31,6 +33,7 @@
     "wagmi": "^0.10.15"
   },
   "devDependencies": {
+    "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-scroll": "^1.8.6",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.6.0",

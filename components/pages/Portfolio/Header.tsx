@@ -12,7 +12,7 @@ const ScrollLinkTitle = ({ label, to }: { label: string; to: string }) => (
 
 export const Header = () => {
   return (
-    <div className="hidden sm:flex w-full py-8 text-base-200  gap-4 flex-row sm:gap-8 items-center justify-end md:justify-between">
+    <div className="hidden lg:px-20 sm:flex w-full py-8 text-base-200 gap-4 flex-row sm:gap-8 items-center justify-end md:justify-between">
       <div className="flex gap-5">
         <ScrollLinkTitle label={ABOUT} to={ABOUT} />
         <ScrollLinkTitle label={EXPERIENCES} to={EXPERIENCES} />

@@ -13,7 +13,7 @@ const OTHER_EXPERIENCES = 'Work Experiences';
 
 const SUBQUERY = 'SubQuery';
 const subQueryWork = [
-  'Lead the development of a data scanner - Subquery Network Explorer: from front-end to data middleware,resulting in definite performance improvement and on-time delivery.',
+  'Lead the development of a data scanner - Subquery Network Explorer: from front-end to data layer,resulting in definite performance improvement and on-time delivery.',
   'Build UI Component library and SDKs helping standardize and efficiency on developments.',
   'Designed and built a data dashboard - Subvis(deprecated) and released several iterations.',
   'Plan and prioritize tickets; provide code review and mentorship.',

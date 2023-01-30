@@ -19,7 +19,7 @@ export const Intro = () => {
         {I_CREATE_THINGS}
       </div>
 
-      <div className="text-base-200 my-8 w-auto md:w-3/5">
+      <div className="text-base-200 my-8 w-auto md:w-3/4">
         <StringWithLink
           startString={INTRO_1}
           link={currentGig}
