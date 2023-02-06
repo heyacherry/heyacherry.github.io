@@ -39,8 +39,8 @@ const palomaExperiences = {
 };
 const ASB = 'ASB Bank';
 const asbWork = [
-  'Designed and built insurance payment web application from scratch and delivered phrase 1.',
-  'Built and maintained an internal shared component lib, which saved efforts across projects.',
+  'Designed and built insurance payment application from scratch and delivered phrase 1.',
+  'Built and maintained an internal shared component lib, helping UI/UX standardize and development efficiency across projects.',
   'Sorted out the plans and requirements via cross team collaborations.',
 ];
 const asbExperiences = {
