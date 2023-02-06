@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import { Element } from 'react-scroll';
 import { About } from './About';
 import { Education } from './Education';
@@ -13,13 +12,7 @@ import { WorkExperiences } from './WorkExperiences';
 export const ABOUT = 'About';
 export const EXPERIENCES = 'Experiences';
 
-ReactGA.initialize(process.env.GA_ID ?? '');
-
 export const Portfolio = () => {
-  React.useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
     <div className="flex flex-col items-center px-4 sm:px-0 relative">
       <Header />
