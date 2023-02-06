@@ -10,9 +10,9 @@ export const Education = () => {
     <div className="mb-40">
       <SectionTitle title={EDUCATION} />
 
-      <div className="mt-2 flex flex-col text-base-200">
+      <div className="mt-4 flex flex-col">
         <div>{EDUCATION_DEGREE}</div>
-        <div className="flex gap-8 text-base">
+        <div className="flex gap-8 text-base text-base-200">
           <span>{EDUCATION_YEAR}</span>
         </div>
       </div>

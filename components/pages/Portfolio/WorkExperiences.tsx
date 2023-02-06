@@ -167,7 +167,7 @@ export const WorkExperiences = () => {
           ))}
         </div>
 
-        <div className="sm:px-4 py-2 text-base-200">
+        <div className="sm:px-4 py-2">
           <Experience {...work} />
         </div>
       </div>

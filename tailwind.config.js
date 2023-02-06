@@ -18,6 +18,9 @@ module.exports = {
         body: ['ubuntu', 'sans-serif'],
         heading: ['righteous', 'sans-serif'],
       },
+      colors: {
+        highlight: '#f0f8ff',
+      },
     },
   },
   daisyui: {
@@ -30,7 +33,7 @@ module.exports = {
           neutral: '#6b7280',
           'base-100': '#111827',
           'base-200': '#79869d',
-          'base-content': 'rgb(191 203 227)',
+          'base-content': '#c0c6d1', //'rgb(191 203 227)',
           info: '#38bdf8',
           success: '#4ade80',
           warning: '#facc15',

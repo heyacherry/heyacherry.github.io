@@ -92,10 +92,10 @@ export const SocialLinks = () => {
   );
 };
 
-export const EmailLink = () => {
+export const LeftDivided = () => {
   return (
-    <div className="hidden md:flex fixed bottom-0 md:left-10 xl:left-20 flex-col justify-center items-center gap-4 text-secondary">
-      <div>{MY_EMAIL_BOX}</div>
+    <div className="hidden xl:flex fixed bottom-0 xl:left-10 flex-col justify-center items-center gap-4 text-secondary">
+      <div className="rotate-90 my-10">{'<hello word/>'}</div>
       <div className="border-x h-52 w-0 border-secondary" />
     </div>
   );

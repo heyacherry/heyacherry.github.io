@@ -14,12 +14,14 @@ export const Intro = () => {
   return (
     <div className="h-screen flex flex-col justify-center">
       <div className="text-primary">{I_AM}</div>
-      <div className="font-heading text-6xl sm:text-8xl my-5">{NAME}</div>
+      <div className="font-heading text-highlight text-6xl sm:text-8xl my-5">
+        {NAME}
+      </div>
       <div className="font-heading text-4xl sm:text-6xl text-base-200">
         {I_CREATE_THINGS}
       </div>
 
-      <div className="text-base-200 my-8 w-auto md:w-3/4">
+      <div className="my-8 w-auto md:w-3/4">
         <StringWithLink
           startString={INTRO_1}
           link={currentGig}
