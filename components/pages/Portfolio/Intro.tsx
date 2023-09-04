@@ -8,7 +8,7 @@ const I_CREATE_THINGS = 'I build things live on the internet.';
 const INTRO_1 = `🦄 A motivated Software Engineer 🦄 focusing on build accessible and intuitive products. Currently, I work with `;
 const currentGig = { label: 'SubQuery', link: SUBQUERY_URL };
 const INTRO_2 =
-  'to make Web3 data more accessible to Web2 as a senior software engineer.';
+  'to make web3 data more accessible as a senior software engineer.';
 
 export const Intro = () => {
   return (

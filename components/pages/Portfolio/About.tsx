@@ -13,9 +13,9 @@ const recentTechStacks = [
   'JavaScript (ES6+)',
   'TypeScript',
   'React',
+  'Reudx/Zustand',
   'NextJS',
   'GraphQL',
-  'web3.js/ether.js',
   'nestJS(nodeJS)',
   'AWS',
 ];

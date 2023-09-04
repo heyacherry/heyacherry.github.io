@@ -47,7 +47,7 @@ const asbExperiences = {
   title: 'Senior Software Engineer',
   gig: 'ASB Bank',
   gigLink: ASB_BANK_URL,
-  duration: 'May 2021 - Nov 2021',
+  duration: 'Aug 2020 - May 2021',
   works: asbWork,
 };
 const CEN = 'Centrality.ai';

@@ -6,7 +6,7 @@ const WORK_EXPERIENCES = 'Other Experiences';
 
 const OPEN_SOURCE_CONTRIBUTOR = 'Open source contributor';
 const OPEN_SOURCE_CONTRIBUTOR_DESC =
-  'Make contributions to projects such as polkadot.js, awesome-vue(54k starts), etc.';
+  'Make contributions to projects such as graphiql, polkadot.js, awesome-vue, etc.';
 
 const HACKATHON = 'Polkaworld Cup Hackathon - 2nd place';
 const HACKATHON_DESC =
